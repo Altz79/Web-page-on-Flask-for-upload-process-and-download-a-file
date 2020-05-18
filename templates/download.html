@@ -1,0 +1,28 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <title>BW_page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+	<div align="center">
+		<h3>Please, select a file to download:</h3>
+		<a class="menu_button" href="{{ url_for('upload_form') }}">or back to main page for upload one more file</a>
+		<br>
+		<br>
+	</div>
+
+	<div align="center" style="width: 63%">
+		{% for file in filelist %}
+		<div align="right">
+			<span>{{ file }} <a class="filelist" href="{{ url_for('download_this_file', filename=file) }}">DOWNLOAD</a>
+							<a class="filelist" href="{{ url_for('delete_file_from_download_folder', filename=file) }}">DELETE</a></span>
+		</div>
+		{% endfor %}
+	</div>
+
+
+
+</body>

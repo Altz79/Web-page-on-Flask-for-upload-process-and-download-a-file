@@ -1,0 +1,42 @@
+body            { font-family: sans-serif; background: #64dcfa; }
+h1, h2          { color: #161715; }
+h1, h2          { font-family: "Helvetica Neue", Helvetica; margin: 0; }
+h1              { border-bottom: 2px solid #eee; }
+h2              { font-size: 1.8em; }
+
+.page           { margin: 2em auto; width: 35em; border: 5px solid #ccc;
+                  padding: 0.8em; background: white; }
+.entries        { list-style: none; margin: 0; padding: 0; }
+.entries li     { margin: 0.8em 1.2em; }
+.entries li h2  { margin-left: -1em; }
+.add-entry      { font-size: 0.9em; border-bottom: 1px solid #ccc; }
+.add-entry dl   { font-weight: bold; }
+.metanav        { text-align: right; font-size: 0.8em; padding: 0.3em;
+                  margin-bottom: 1em; background: #fafafa; }
+.flash          { background: #cee5F5; padding: 0.5em;
+                  border: 1px solid #aacbe2; 
+                  list-style-type: none;}
+.error          { background: #f0d6d6; padding: 0.5em; }
+
+.filelist {
+	font-size: 14px;
+	margin: 7px;
+	padding: 3px 10px; 
+	background-color: #CDCDCD;
+	border-radius: 3px;
+	border: 1px solid #003366;
+	display: inline-block;
+	text-decoration: none;
+	color: #333333;
+}
+
+.menu_button {
+	font-size: 16px;
+	padding: 6px; 
+	background-color: #dcdcdc;
+	border-radius: 3px;
+	border: 1px solid #003366;
+	display: inline-block;
+	text-decoration: none;
+	color: #333333;
+}
